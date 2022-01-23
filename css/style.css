@@ -728,7 +728,7 @@ body {
   transition: all 1s ease;
 }
 .oxirgi-img-div:hover .oxirgi-img{
-  transform: scale(1.2);
+  transform: scale(1.1) translate(20px);
   transition: all 1s ease;
 }
 
@@ -805,6 +805,32 @@ body {
 }
 
 
+.desig-sale-div{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.design-sale{
+  padding: 3px 5px;
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+}
+.design-sale2{
+  padding: 3px 5px;
+  background-color: #10d3da;
+  color: #fff;
+  font-size: 14px;
+}
+.des-sale{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  padding: 3px 10px;
+  background-color: #10d3da;
+  color: #fff;
+  font-size: 14px;
+}
 .design-items{
   width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
@@ -817,6 +843,7 @@ body {
   transition: all 0.5s ease;
   margin-bottom: 100px;
   cursor: pointer;
+  position: relative;
   /* background-image: url('https://rubiktheme.com/demo/rb_stark_demo/24-home_default/hummingbird-printed-t-shirt.jpg');
   width: 280px;
   height: 350px;
@@ -942,7 +969,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 .design-item:hover .bg-img9{
   background-image: url('https://rubiktheme.com/demo/rb_stark_demo/54-home_default/mountain-fox-cushion.jpg');
@@ -1017,6 +1044,9 @@ body {
   position: relative;
 }
 
+.design-son-item:hover{
+  background-color: #ce7024;
+}
 .design-son-item0{
   padding: 12px 10px 5px 10px;
   background-color: #000;
